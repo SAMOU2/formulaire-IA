@@ -1,0 +1,61 @@
+[
+  {
+    "type": "Étudiant",
+    "nom": "Ben Ali",
+    "prenom": "Mohamed",
+    "sexe": "Masculin",
+    "dateNaissance": "12052000",
+    "telephone": "0550123456",
+    "email": "exemple@domaine.com",
+    "extra": "2025",
+    "matriculeOuModule": "120520002025"
+  }
+,
+  {
+    "type": "Étudiant",
+    "nom": "dd",
+    "prenom": "dddd",
+    "sexe": "Masculin",
+    "dateNaissance": "05052004",
+    "telephone": "0780523698",
+    "email": "s@gmail.com",
+    "extra": "2025",
+    "matriculeOuModule": "050520042025"
+  }
+,
+  {
+    "type": "Étudiant",
+    "nom": "dd",
+    "prenom": "dddd",
+    "sexe": "Masculin",
+    "dateNaissance": "05052004",
+    "telephone": "0789356204",
+    "email": "s@gmail.com",
+    "extra": "2025",
+    "matriculeOuModule": "050520042025"
+  }
+,
+  {
+    "type": "Étudiant",
+    "nom": "d",
+    "prenom": "ddd",
+    "sexe": "Masculin",
+    "dateNaissance": "05052004",
+    "telephone": "0522248795",
+    "email": "dd@gmaiul.comn",
+    "extra": "2025",
+    "matriculeOuModule": "050520042025"
+  }
+,
+  {
+    "type": "Étudiant",
+    "nom": "ss",
+    "prenom": "sss",
+    "sexe": "Masculin",
+    "dateNaissance": "05052004",
+    "telephone": "0505202647",
+    "email": "d@",
+    "extra": "2025",
+    "matriculeOuModule": "050520042025"
+  }
+]

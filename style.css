@@ -1,0 +1,129 @@
+/* --- Style Général --- */
+.root {
+    -fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    -fx-background-color: linear-gradient(to bottom right, #090d16, #141b2d);
+}
+
+.header-box {
+    -fx-background-color: rgba(30, 41, 59, 0.4);
+    -fx-padding: 20px;
+    -fx-background-radius: 14px;
+    -fx-border-color: rgba(255, 255, 255, 0.08);
+}
+
+.label-title {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #f8fafc;
+}
+
+.label-subtitle {
+    -fx-font-size: 12px;
+    -fx-text-fill: #94a3b8;
+}
+
+.card, .preview-card {
+    -fx-background-color: rgba(255, 255, 255, 0.03);
+    -fx-padding: 18px;
+    -fx-background-radius: 16px;
+    -fx-border-color: rgba(255, 255, 255, 0.08);
+}
+
+.label {
+    -fx-font-size: 13px;
+    -fx-text-fill: #cbd5e1;
+    -fx-font-weight: 600;
+}
+
+/* --- Champs de texte et listes déroulantes --- */
+.text-field, .combo-box {
+    -fx-background-color: rgba(15, 23, 42, 0.7);
+    -fx-text-fill: white;
+    -fx-border-color: rgba(255, 255, 255, 0.12);
+    -fx-border-radius: 8px;
+    -fx-padding: 8px 10px;
+    -fx-font-size: 12px;
+}
+
+.text-field:focused, .combo-box:focused {
+    -fx-border-color: #38bdf8;
+}
+
+.field-error {
+    -fx-border-color: #ef4444;
+}
+
+.field-success {
+    -fx-border-color: #10b981;
+}
+
+/* --- WIDGET BOT FLOTTANT (CORRECTION DES CLICS) --- */
+.floating-bot-wrapper {
+    -fx-alignment: bottom-right;
+    -fx-padding: 25px;
+    -fx-pick-on-bounds: false; /* Permet aux clics de traverser la zone vide pour atteindre les champs */
+}
+
+.floating-bot-content {
+    -fx-alignment: bottom-right;
+    -fx-spacing: 10px;
+}
+
+.bot-speech-bubble {
+    -fx-background-color: rgba(15, 23, 42, 0.95);
+    -fx-padding: 12px 16px;
+    -fx-background-radius: 12px;
+    -fx-border-color: #10b981;
+    -fx-border-width: 1.5px;
+    -fx-border-radius: 12px;
+    -fx-effect: dropshadow(three-pass-box, rgba(16, 185, 129, 0.3), 15, 0, 0, 5);
+    -fx-max-width: 280px;
+}
+
+.bot-speech-text {
+    -fx-font-size: 12px;
+    -fx-text-fill: #e2e8f0;
+    -fx-wrap-text: true;
+}
+
+.bot-avatar-circle {
+    -fx-background-color: #0f172a;
+    -fx-background-radius: 50%;
+    -fx-border-color: #10b981;
+    -fx-border-width: 2.5px;
+    -fx-border-radius: 50%;
+    -fx-min-width: 55px;
+    -fx-min-height: 55px;
+    -fx-max-width: 55px;
+    -fx-max-height: 55px;
+    -fx-alignment: center;
+    -fx-font-size: 22px;
+    -fx-effect: dropshadow(three-pass-box, rgba(16, 185, 129, 0.5), 15, 0, 0, 0);
+}
+
+/* --- Boutons --- */
+.button {
+    -fx-background-color: #4f46e5;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 16px;
+    -fx-background-radius: 8px;
+    -fx-cursor: hand;
+    -fx-font-size: 13px;
+}
+
+.button-all {
+    -fx-background-color: linear-gradient(to right, #059669, #10b981);
+}
+
+.button-cancel {
+    -fx-background-color: linear-gradient(to right, #475569, #64748b);
+}
+
+.text-area {
+    -fx-background-color: rgba(15, 23, 42, 0.8);
+    -fx-text-fill: #38bdf8;
+    -fx-font-family: "Consolas", monospace;
+    -fx-font-size: 11px;
+    -fx-background-radius: 8px;
+}
